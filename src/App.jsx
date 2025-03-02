@@ -151,7 +151,7 @@ function App() {
                   <h5 className="card-title">BMI Calculation</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk
                     of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/BmiCalulator-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ function App() {
                   <h5 className="card-title">Currency Converter</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk
                     of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/CurrencyConverter-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ function App() {
                   <h5 className="card-title">Digital Clock</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk
                     of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/DigitalClock-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">QR Code Generator</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/QrCodeGenerator-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -209,7 +209,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Password Generator</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/PasswordGenerator-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -222,7 +222,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">FAQ Items</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/FaqItem-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">TripAdvisor</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/TripAdvisor/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -250,7 +250,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Juice World</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/Juicer/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -263,7 +263,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Google</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/Google-FrontPage/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -278,7 +278,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Quiz</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/QuizApp-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -291,7 +291,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">User Card</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/UserCard-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
@@ -304,7 +304,7 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">E-Commerce</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/Juicer/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
