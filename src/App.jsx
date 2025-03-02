@@ -166,7 +166,7 @@ function App() {
                   <h5 className="card-title">Currency Converter</h5>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk
                     of the card's content.</p>
-                  <a href="mohamedsameer007.github.io/CurrencyConverter-React/" className="btn btn-primary">View Project</a>
+                  <a href="https://mohamedsameer007.github.io/CurrencyConverter-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
