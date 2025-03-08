@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 function App() {
   useEffect(() => {
     AOS.init();
-  },[])
+  }, [])
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -149,8 +149,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">BMI Calculation</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk
-                    of the card's content.</p>
+                  <p className="card-text">Instantly calculate your BMI and get health feedback. Created using React.js for a smooth experience.</p>
                   <a href="https://mohamedsameer007.github.io/BmiCalulator-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -164,8 +163,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Currency Converter</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk
-                    of the card's content.</p>
+                  <p className="card-text">Convert currencies in real-time with ease. Built with React.js for quick and accurate results.</p>
                   <a href="https://mohamedsameer007.github.io/CurrencyConverter-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -178,8 +176,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Digital Clock</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk
-                    of the card's content.</p>
+                  <p className="card-text">A real-time digital clock built with React.js. Displays hours, minutes, and seconds accurately.</p>
                   <a href="https://mohamedsameer007.github.io/DigitalClock-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -195,7 +192,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">QR Code Generator</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Instantly generate QR codes from any text or URL. Built with React.js for quick processing.</p>
                   <a href="https://mohamedsameer007.github.io/QrCodeGenerator-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -208,7 +205,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Password Generator</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Create strong, secure passwords instantly. Built with React.js for fast and secure generation.</p>
                   <a href="https://mohamedsameer007.github.io/PasswordGenerator-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -221,7 +218,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">FAQ Items</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">A dynamic FAQ section built using React.js. Get quick answers to common questions.</p>
                   <a href="https://mohamedsameer007.github.io/FaqItem-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -236,7 +233,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">TripAdvisor</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Designed a clean and engaging front page for TripAdvisor. Explore top destinations and travel tips.</p>
                   <a href="https://mohamedsameer007.github.io/TripAdvisor/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -249,7 +246,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Juice World</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Created a vibrant front page showcasing fresh juice options. Simple, colorful, and inviting.</p>
                   <a href="https://mohamedsameer007.github.io/Juicer/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -262,7 +259,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Google</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Built a minimalist and fast-loading front page for Google. Clean design with quick search access.</p>
                   <a href="https://mohamedsameer007.github.io/Google-FrontPage/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -277,7 +274,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Quiz</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Test your knowledge with this interactive quiz app. Built with React.js for real-time feedback.</p>
                   <a href="https://mohamedsameer007.github.io/QuizApp-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -290,7 +287,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">User Card</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Manage and display user profiles effortlessly. Created using React.js for a dynamic interface.</p>
                   <a href="https://mohamedsameer007.github.io/UserCard-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -303,7 +300,7 @@ function App() {
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">E-Commerce</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p className="card-text">Developed an intuitive and user-friendly front page for an online store. Smooth navigation and product display.</p>
                   <a href="https://mohamedsameer007.github.io/Juicer/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
@@ -426,7 +423,7 @@ function App() {
         defer
       ></script>
 
-      
+
 
     </>
   )
