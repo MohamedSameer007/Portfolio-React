@@ -336,6 +336,9 @@ section{
     height: 250px;
     overflow: hidden;
 }
+.card{
+    height: 400px !important;
+}
 .card img{
     width: 100%;
     height: 250px;

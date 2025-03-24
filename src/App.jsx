@@ -63,11 +63,10 @@ function App() {
 
           <div className="about-content">
             <h1>ABOUT ME</h1>
-            <p>Our goal is to help businesses and individuals create a strong online presence. We work with the
-              latest web technologies to develop websites that look great and function smoothly on all devices.
+            <p>
+              "I’m a web developer who loves creating clean, fast, and user-friendly websites. I specialize in React.js and modern web technologies to build smooth and responsive designs. Problem-solving and bringing ideas to life is what I do best.</p>
+            <p>Let’s work together to build something amazing! I’m always learning new skills to stay ahead in web development. Passion drives my work, and I strive to deliver the best results."
             </p>
-            <p>From simple web pages to complex applications, we bring ideas to life with clean and efficient code.
-              Customer satisfaction is our priority</p>
           </div>
         </div>
       </section>
@@ -141,7 +140,7 @@ function App() {
         <div className="container pb-lg-5">
           <h1 className="display-4 text-center">Projects</h1>
 
-          <div className="row my-4">
+          <div className="row my-5">
             <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
@@ -184,7 +183,7 @@ function App() {
           </div>
 
 
-          <div className="row my-4">
+          <div className="row my-5">
             <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
@@ -225,7 +224,7 @@ function App() {
             </div>
           </div>
 
-          <div className="row my-4">
+          <div className="row my-5">
             <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
@@ -266,7 +265,8 @@ function App() {
             </div>
           </div>
 
-          <div className="row mt-4">
+
+          <div className="row my-5">
             <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
@@ -302,6 +302,48 @@ function App() {
                   <h5 className="card-title">E-Commerce</h5>
                   <p className="card-text">Developed an intuitive and user-friendly front page for an online store. Smooth navigation and product display.</p>
                   <a href="https://mohamedsameer007.github.io/Juicer/" className="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="row mt-5">
+            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
+              <div className="card" style={{ width: '25rem' }}>
+                <div className="card-head">
+                  <img src="https://png.pngtree.com/thumb_back/fh260/background/20231001/pngtree-completed-to-do-list-icon-a-3d-rendering-of-a-notebook-image_13576111.png" className="card-img-top" alt="..." />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Todo list</h5>
+                  <p className="card-text">Stay organized with this dynamic to-do list app. Built with React.js, it ensures an intuitive user experience.</p>
+                  <a href="https://mohamedsameer007.github.io/TodoList-React/" className="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="150">
+              <div className="card" style={{ width: '25rem' }}>
+                <div className="card-head">
+                  <img src="https://png.pngtree.com/background/20230520/original/pngtree-an-orange-3d-calculator-sits-on-top-of-a-black-surface-picture-image_2674190.jpg" className="card-img-top" alt="..." />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Calculator</h5>
+                  <p className="card-text">Perform quick and accurate calculations with this modern calculator app. Developed using React.js</p>
+                  <a href="https://mohamedsameer007.github.io/Calculator-React/" className="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="250">
+              <div className="card" style={{ width: '25rem' }}>
+                <div className="card-head">
+                  <img src="https://static.vecteezy.com/system/resources/previews/021/667/135/non_2x/sun-cloud-lightning-gold-icon-illustration-of-golden-style-summer-time-on-dark-background-vector.jpg" className="card-img-top" alt="..." />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Weather App</h5>
+                  <p className="card-text">Get real-time weather updates with this sleek weather app. Built with React.js, it provides accurate forecasts</p>
+                  <a href="https://mohamedsameer007.github.io/Weather-React/" className="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
