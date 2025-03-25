@@ -53,6 +53,21 @@ function App() {
           <h2>Hey <span className="h2">There</span></h2>
           <h1>I'm <span className="h1">Sameer</span></h1>
         </div>
+
+        <div className='home-extra'>
+          <div className='home-back'>
+            <div className='back'></div>
+            <h2>Porfolio</h2>
+            <h5><span>Hey</span> there! I'm Sameer, a passionate web developer who thrives on building clean, fast, and user-friendly websites. I specialize in React.js and modern web technologies, ensuring seamless and responsive designs that enhance user experience. Problem-solving excites me, and I love bringing ideas to life through code.</h5>
+          </div>
+        </div>
+
+        <div className='back1'>
+          <div className='div1'></div>
+          <div className='div2'></div>
+          <div className='div3'></div>
+        </div>
+
       </section>
 
       <section id="about">
@@ -63,11 +78,10 @@ function App() {
 
           <div className="about-content">
             <h1>ABOUT ME</h1>
-            <p>
-              "I’m a web developer who loves creating clean, fast, and user-friendly websites. I specialize in React.js and modern web technologies to build smooth and responsive designs. Problem-solving and bringing ideas to life is what I do best.</p>
-            <p>Let’s work together to build something amazing! I’m always learning new skills to stay ahead in web development. Passion drives my work, and I strive to deliver the best results."
-            </p>
+            <p>I thrive on solving complex problems and turning ideas into functional, high-performing web applications. Every project I work on is an opportunity to push boundaries, optimize performance, and ensure a flawless digital experience.</p>
+            <p>Beyond coding, I’m always exploring new trends, experimenting with the latest tech, and refining my skills to stay ahead in the ever-evolving web development landscape. I believe that great web experiences come from a mix of creativity, precision, and an eye for detail.</p>
           </div>
+
         </div>
       </section>
 
