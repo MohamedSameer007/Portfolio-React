@@ -7,6 +7,13 @@
     font-family: "Poppins", serif;
 }
 
+#root{
+    background: linear-gradient(to right, black, #12000bcc),url(/mern1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 nav{
     width: 100%;
     position: sticky !important;
@@ -39,10 +46,10 @@ nav{
 section{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/mern1.jpg);
+    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/mern1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #home{
@@ -145,10 +152,10 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/about3.jpg);
+    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/about3.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     /* background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(https://www.wpbeginner.com/wp-content/uploads/2023/12/ecommerce-wp-solutions.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -272,11 +279,11 @@ section{
 
 #skills{
     padding-top: 5%;
-    color: white;
+    /* color: white;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/skills.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 #skills h1{
     font-weight: 400;
@@ -291,6 +298,7 @@ section{
 }
 #skills label{
     font-size: 25px !important;
+    color: white;
 }
 .progress{
     height: 30px !important;
@@ -308,10 +316,10 @@ section{
 
 #projects{
     padding-top: 5%;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/project1.jpg);
+    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/project1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 #projects h1{
     font-weight: 400;

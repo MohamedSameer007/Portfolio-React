@@ -56,7 +56,7 @@ function App() {
       </section>
 
       <section id="about">
-        <div className="about-pic" data-aos="zoom-in" data-aos-offset="150">
+        <div className="about-pic" data-aos="zoom-in" data-aos-offset="150" data-aos-duration="700">
           <img
             src="https://thumbs.dreamstime.com/b/avatar-gold-icon-vector-illustration-golden-particle-background-isolated-vector-sign-symbol-education-icon-black-background-168668166.jpg"
             alt="About Me" />
@@ -75,13 +75,13 @@ function App() {
         <h1 className="text-center">My Skills</h1>
         <div className="container">
           <div className="row p-lg-3 p-0 mb-lg-3 mb-0">
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100" data-aos-duration="700">
               <label>HTML</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '75%' }}>75%</div>
               </div>
             </div>
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>CSS</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '68%' }}>68%</div>
@@ -90,13 +90,13 @@ function App() {
           </div>
 
           <div className="row p-lg-3 p-0 mb-lg-3 mb-0">
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100" data-aos-duration="700">
               <label>JavaScript</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '50%' }}>50%</div>
               </div>
             </div>
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>Bootstrap</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '50%' }}>50%</div>
@@ -105,13 +105,13 @@ function App() {
           </div>
 
           <div className="row p-lg-3 p-0 mb-lg-3 mb-0">
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100" data-aos-duration="700">
               <label>ReactJS</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '30%' }}>30%</div>
               </div>
             </div>
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>NodeJS</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '0%' }}>0%</div>
@@ -120,13 +120,13 @@ function App() {
           </div>
 
           <div className="row p-lg-3 p-0 mb-lg-3 mb-0">
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100" data-aos-duration="700">
               <label>Express</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '0%' }}>0%</div>
               </div>
             </div>
-            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100">
+            <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>Mango DB</label>
               <div className="progress">
                 <div className="progress-bar bg-warning" role="progressbar" style={{ width: '0%' }}>0%</div>
@@ -141,7 +141,7 @@ function App() {
           <h1 className="display-4 text-center">Projects</h1>
 
           <div className="row my-5">
-            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
+            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="bmi.jpg" className="card-img-top" alt="BMI Calculation" />
@@ -154,7 +154,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="150">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2022/11/LSE_2022_international-pressures_goldberg_460-1.jpg"
@@ -168,7 +168,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="250">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://wallpaper.dog/large/20490581.jpg" className="card-img-top" alt="Digital Clock" />
@@ -184,7 +184,7 @@ function App() {
 
 
           <div className="row my-5">
-            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
+            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://www.acu-data78.com/wp-content/uploads/2016/05/qr-codes-featured-02.jpg" className="card-img-top" alt="..." />
@@ -197,7 +197,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="150">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://mir-s3-cdn-cf.behance.net/projects/404/4064e9187713019.Y3JvcCw4MDgsNjMyLDAsMA.png" className="card-img-top" alt="..." />
@@ -210,7 +210,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="250">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://www.allaboutai.com/wp-content/uploads/2024/01/Right-AI-Tool-for-FAQs.jpg" className="card-img-top" alt="..." />
@@ -225,7 +225,7 @@ function App() {
           </div>
 
           <div className="row my-5">
-            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
+            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://c8.alamy.com/comp/2ARR354/tripadvisor-online-travel-company-2ARR354.jpg" className="card-img-top" alt="..." />
@@ -238,7 +238,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="150">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://wallpapers.com/images/hd/juice-with-different-flavors-qu169nfu2r1ysjxk.jpg" className="card-img-top" alt="..." />
@@ -251,7 +251,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="250">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://media.wired.com/photos/65e83cc9b8ffa5f8fa84c893/4:3/w_2664,h_1998,c_limit/wired-uk-google-watching.jpg" className="card-img-top" alt="..." />
@@ -267,7 +267,7 @@ function App() {
 
 
           <div className="row my-5">
-            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
+            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://as1.ftcdn.net/v2/jpg/03/45/97/36/1000_F_345973621_sMifpCogXNoIDjmXlbLwx1QZA5ZmQVl8.jpg" className="card-img-top" alt="..." />
@@ -280,7 +280,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="150">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://img.freepik.com/premium-vector/customer-relationship-network-connection-technology-with-people-icons-dark-blue-background_618588-1059.jpg" className="card-img-top" alt="..." />
@@ -293,7 +293,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="250">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://ecommercefastlane.com/wp-content/uploads/2024/01/Best-Ecommerce-Website-Builders-800x457.jpg" className="card-img-top" alt="..." />
@@ -309,7 +309,7 @@ function App() {
 
 
           <div className="row mt-5">
-            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="50">
+            <div className="col-lg-4 col-12" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://png.pngtree.com/thumb_back/fh260/background/20231001/pngtree-completed-to-do-list-icon-a-3d-rendering-of-a-notebook-image_13576111.png" className="card-img-top" alt="..." />
@@ -322,7 +322,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="150">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://png.pngtree.com/background/20230520/original/pngtree-an-orange-3d-calculator-sits-on-top-of-a-black-surface-picture-image_2674190.jpg" className="card-img-top" alt="..." />
@@ -335,7 +335,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="250">
+            <div className="col-lg-4 col-12 my-lg-0 my-4" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="700">
               <div className="card" style={{ width: '25rem' }}>
                 <div className="card-head">
                   <img src="https://static.vecteezy.com/system/resources/previews/021/667/135/non_2x/sun-cloud-lightning-gold-icon-illustration-of-golden-style-summer-time-on-dark-background-vector.jpg" className="card-img-top" alt="..." />
@@ -356,11 +356,11 @@ function App() {
       <section id="contact">
         <div className="container contact-us-main">
           <div className="row contact-us py-2">
-            <div className="col-lg-7 contact-head" data-aos="fade-right" data-aos-offset="150">
+            <div className="col-lg-7 contact-head" data-aos="fade-right" data-aos-offset="150" data-aos-duration="700">
               <img src="mern.jpg" alt="MERN Stack" />
             </div>
 
-            <div className="col-lg-5 contact-body" data-aos="fade-left" data-aos-offset="150">
+            <div className="col-lg-5 contact-body" data-aos="fade-left" data-aos-offset="150" data-aos-duration="700">
               <h3 className="my-2 text-center">Contact US</h3>
               <div className="mb-3">
                 <label htmlFor="nameInput" className="form-label">Name</label>
