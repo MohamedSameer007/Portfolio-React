@@ -98,7 +98,7 @@ function App() {
             <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>CSS</label>
               <div className="progress">
-                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '68%' }}>68%</div>
+                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '75%' }}>75%</div>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@ function App() {
             <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>Bootstrap</label>
               <div className="progress">
-                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '50%' }}>50%</div>
+                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '60%' }}>60%</div>
               </div>
             </div>
           </div>
@@ -122,13 +122,13 @@ function App() {
             <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100" data-aos-duration="700">
               <label>ReactJS</label>
               <div className="progress">
-                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '30%' }}>30%</div>
+                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '50%' }}>50%</div>
               </div>
             </div>
             <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>NodeJS</label>
               <div className="progress">
-                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '0%' }}>0%</div>
+                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '35%' }}>35%</div>
               </div>
             </div>
           </div>
@@ -137,13 +137,13 @@ function App() {
             <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-right" data-aos-offset="100" data-aos-duration="700">
               <label>Express</label>
               <div className="progress">
-                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '0%' }}>0%</div>
+                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '40%' }}>40%</div>
               </div>
             </div>
             <div className="col-lg-6 col-12 pt-lg-0 pt-2" data-aos="fade-left" data-aos-offset="100" data-aos-duration="700">
               <label>Mango DB</label>
               <div className="progress">
-                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '0%' }}>0%</div>
+                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '70%' }}>70%</div>
               </div>
             </div>
           </div>
