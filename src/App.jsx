@@ -5,6 +5,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import skillsData from './json/skills.json';
+import projectData from './json/projects.json';
+
 
 function App() {
   useEffect(() => {
@@ -85,7 +88,7 @@ function App() {
         </div>
       </section>
 
-      <section id="skills">
+      {/* <section id="skills">
         <h1 className="text-center">My Skills</h1>
         <div className="container">
           <div className="row p-lg-3 p-0 mb-lg-3 mb-0">
@@ -148,9 +151,45 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section id="projects">
+       <section id="skills">
+      <h1 className="text-center">My Skills</h1>
+      <div className="container">
+        {skillsData.map((skill, index) => {
+          return (
+            index % 2 === 0 && (
+              <div className="row p-lg-3 p-0 mb-lg-3 mb-0" key={index}>
+                {[skillsData[index], skillsData[index + 1]].map((item, i) =>
+                  item ? (
+                    <div
+                      key={i}
+                      className="col-lg-6 col-12 pt-lg-0 pt-2"
+                      data-aos={i === 0 ? "fade-right" : "fade-left"}
+                      data-aos-offset="100"
+                      data-aos-duration="700"
+                    >
+                      <label>{item.label}</label>
+                      <div className="progress">
+                        <div
+                          className="progress-bar bg-warning"
+                          role="progressbar"
+                          style={{ width: `${item.percentage}%` }}
+                        >
+                          {item.percentage}%
+                        </div>
+                      </div>
+                    </div>
+                  ) : null
+                )}
+              </div>
+            )
+          );
+        })}
+      </div>
+    </section>
+
+      {/* <section id="projects">
         <div className="container pb-lg-5">
           <h1 className="display-4 text-center">Projects</h1>
 
@@ -364,7 +403,44 @@ function App() {
           </div>
 
         </div>
-      </section>
+      </section> */}
+
+      <section id="projects">
+      <div className="container pb-lg-5">
+        <h1 className="display-4 text-center">Projects</h1>
+
+        {projectData.reduce((rows, project, index) => {
+          if (index % 3 === 0) rows.push([]);
+          rows[rows.length - 1].push(project);
+          return rows;
+        }, []).map((row, rowIndex) => (
+          <div className="row my-5" key={rowIndex}>
+            {row.map((proj, colIndex) => (
+              <div
+                key={colIndex}
+                className="col-lg-4 col-12 my-lg-0 my-4"
+                data-aos="zoom-in"
+                data-aos-offset={100 * (colIndex + 1)}
+                data-aos-duration="700"
+              >
+                <div className="card" style={{ width: '25rem' }}>
+                  <div className="card-head">
+                    <img src={proj.image} className="card-img-top" alt={proj.title} />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">{proj.title}</h5>
+                    <p className="card-text">{proj.description}</p>
+                    <a href={proj.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                      View Project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </section>
 
 
       <section id="contact">

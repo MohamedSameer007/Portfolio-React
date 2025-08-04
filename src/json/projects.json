@@ -1,0 +1,92 @@
+[
+  {
+    "title": "BMI Calculation",
+    "description": "Instantly calculate your BMI and get health feedback. Created using React.js for a smooth experience.",
+    "image": "bmi.jpg",
+    "link": "https://mohamedsameer007.github.io/BmiCalulator-React/"
+  },
+  {
+    "title": "Currency Converter",
+    "description": "Convert currencies in real-time with ease. Built with React.js for quick and accurate results.",
+    "image": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2022/11/LSE_2022_international-pressures_goldberg_460-1.jpg",
+    "link": "https://mohamedsameer007.github.io/CurrencyConverter-React/"
+  },
+  {
+    "title": "Digital Clock",
+    "description": "A real-time digital clock built with React.js. Displays hours, minutes, and seconds accurately.",
+    "image": "https://wallpaper.dog/large/20490581.jpg",
+    "link": "https://mohamedsameer007.github.io/DigitalClock-React/"
+  },
+  {
+    "title": "QR Code Generator",
+    "description": "Instantly generate QR codes from any text or URL. Built with React.js for quick processing.",
+    "image": "https://www.acu-data78.com/wp-content/uploads/2016/05/qr-codes-featured-02.jpg",
+    "link": "https://mohamedsameer007.github.io/QrCodeGenerator-React/"
+  },
+  {
+    "title": "Password Generator",
+    "description": "Create strong, secure passwords instantly. Built with React.js for fast and secure generation.",
+    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/4064e9187713019.Y3JvcCw4MDgsNjMyLDAsMA.png",
+    "link": "https://mohamedsameer007.github.io/PasswordGenerator-React/"
+  },
+  {
+    "title": "FAQ Items",
+    "description": "A dynamic FAQ section built using React.js. Get quick answers to common questions.",
+    "image": "https://www.allaboutai.com/wp-content/uploads/2024/01/Right-AI-Tool-for-FAQs.jpg",
+    "link": "https://mohamedsameer007.github.io/FaqItem-React/"
+  },
+  {
+    "title": "TripAdvisor",
+    "description": "Designed a clean and engaging front page for TripAdvisor. Explore top destinations and travel tips.",
+    "image": "https://c8.alamy.com/comp/2ARR354/tripadvisor-online-travel-company-2ARR354.jpg",
+    "link": "https://mohamedsameer007.github.io/TripAdvisor/"
+  },
+  {
+    "title": "Juice World",
+    "description": "Created a vibrant front page showcasing fresh juice options. Simple, colorful, and inviting.",
+    "image": "https://wallpapers.com/images/hd/juice-with-different-flavors-qu169nfu2r1ysjxk.jpg",
+    "link": "https://mohamedsameer007.github.io/Juicer/"
+  },
+  {
+    "title": "Google",
+    "description": "Built a minimalist and fast-loading front page for Google. Clean design with quick search access.",
+    "image": "https://media.wired.com/photos/65e83cc9b8ffa5f8fa84c893/4:3/w_2664,h_1998,c_limit/wired-uk-google-watching.jpg",
+    "link": "https://mohamedsameer007.github.io/Google-FrontPage/"
+  },
+  {
+    "title": "Quiz",
+    "description": "Test your knowledge with this interactive quiz app. Built with React.js for real-time feedback.",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/45/97/36/1000_F_345973621_sMifpCogXNoIDjmXlbLwx1QZA5ZmQVl8.jpg",
+    "link": "https://mohamedsameer007.github.io/QuizApp-React/"
+  },
+  {
+    "title": "User Card",
+    "description": "Manage and display user profiles effortlessly. Created using React.js for a dynamic interface.",
+    "image": "https://img.freepik.com/premium-vector/customer-relationship-network-connection-technology-with-people-icons-dark-blue-background_618588-1059.jpg",
+    "link": "https://mohamedsameer007.github.io/UserCard-React/"
+  },
+  {
+    "title": "E-Commerce",
+    "description": "Developed an intuitive and user-friendly front page for an online store. Smooth navigation and product display.",
+    "image": "https://ewm.swiss/application/files/8216/1597/9679/E-commerce_web_design_EWM_SA_Digital_Agency_Geneva.jpg",
+    "link": "https://mohamedsameer007.github.io/Juicer/"
+  },
+  {
+    "title": "Todo List",
+    "description": "Stay organized with this dynamic to-do list app. Built with React.js, it ensures an intuitive user experience.",
+    "image": "https://png.pngtree.com/thumb_back/fh260/background/20231001/pngtree-completed-to-do-list-icon-a-3d-rendering-of-a-notebook-image_13576111.png",
+    "link": "https://mohamedsameer007.github.io/TodoList-React/"
+  },
+  {
+    "title": "Calculator",
+    "description": "Perform quick and accurate calculations with this modern calculator app. Developed using React.js",
+    "image": "https://png.pngtree.com/background/20230520/original/pngtree-an-orange-3d-calculator-sits-on-top-of-a-black-surface-picture-image_2674190.jpg",
+    "link": "https://mohamedsameer007.github.io/Calculator-React/"
+  },
+  {
+    "title": "Weather App",
+    "description": "Get real-time weather updates with this sleek weather app. Built with React.js, it provides accurate forecasts",
+    "image": "https://static.vecteezy.com/system/resources/previews/021/667/135/non_2x/sun-cloud-lightning-gold-icon-illustration-of-golden-style-summer-time-on-dark-background-vector.jpg",
+    "link": "https://mohamedsameer007.github.io/Weather-React/"
+  }
+]

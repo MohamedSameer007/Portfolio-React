@@ -1,0 +1,10 @@
+[
+  { "label": "HTML", "percentage": 75 },
+  { "label": "CSS", "percentage": 75 },
+  { "label": "JavaScript", "percentage": 50 },
+  { "label": "Bootstrap", "percentage": 60 },
+  { "label": "ReactJS", "percentage": 50 },
+  { "label": "NodeJS", "percentage": 35 },
+  { "label": "Express", "percentage": 40 },
+  { "label": "MongoDB", "percentage": 70 }
+]
