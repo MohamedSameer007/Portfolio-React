@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Student Academic Profile & Certificate Management System",
+    "description": "Track student performance, certifications, and academic records in one centralized platform.",
+    "image": "student.png",
+    "link": "https://github.com/MohamedSameer007/student-academic"
+  },
+  {
+    "title": "Placement Experience Sharing Platform",
+    "description": "Share and discover placement experiences to learn from successful candidates.",
+    "image": "placement.png",
+    "link": "https://github.com/MohamedSameer007/placement-repo"
+  },
+  {
+    "title": "Recipe Explorer",
+    "description": "Search and explore recipes with detailed nutrition information, cooking time, and serving details.",
+    "image": "recipe.png",
+    "link": "https://github.com/MohamedSameer007/Recipe-Explorer-MERN"
+  }
+]

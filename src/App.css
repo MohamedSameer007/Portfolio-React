@@ -9,7 +9,7 @@
 
 #root{
     width: 100%;
-    background: linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.8)),url(/com.jpg);
+    background: linear-gradient(to right,rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url(/com.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -36,22 +36,9 @@ nav{
     border-bottom: 1px solid white;
 }
 
-/* body{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(mern1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 section{
     width: 100%;
     min-height: 100vh;
-    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/mern1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 #home{
@@ -90,9 +77,6 @@ section{
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
 
-
-
-    
     font-family: 'Pacifico', cursive !important;
     color: white !important;
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 1) !important;
@@ -147,8 +131,6 @@ section{
     }
 }
 
-
-
 .home-extra{
     font-size: 40px !important;
     position: absolute;
@@ -174,7 +156,7 @@ section{
     line-height: 30px;
     left:50px;
     top: 130px;
-    z-index: i;
+    z-index: 1;
 }
 .home-back h2{
     z-index: 1;
@@ -214,19 +196,10 @@ section{
     height: 60px;
 }
 
-
 #about{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/about3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(https://www.wpbeginner.com/wp-content/uploads/2023/12/ecommerce-wp-solutions.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .about-pic{
     cursor: pointer;
@@ -237,8 +210,6 @@ section{
     border-radius: 10%;
     position: relative;
     transition: 0.5s !important;
-    /* margin-top: 8%;
-    margin-bottom: 3%; */
 }
 .about-pic img{
     height: 350px;
@@ -266,7 +237,6 @@ section{
     height: 400px;
     border-radius: 2% !important;
     transition: 0.5s !important
-
 }
 .about-pic:hover img{
     position: absolute;
@@ -288,23 +258,7 @@ section{
 }
 .about-content{
     opacity: 0;
-
-    /* animation-name: text-para;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-timing-function: ease-in-out; */
 }
-
-
-/* @keyframes text-para{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-} */
-
 
 @media screen and (max-width:576px){
     .about-pic{
@@ -313,8 +267,6 @@ section{
         border-radius: 10%;
         position: relative;
         transition: 0.5s !important;
-        /* margin-top: 8%;
-        margin-bottom: 3%; */
     }
     .about-pic:hover img{
         position: absolute;
@@ -336,22 +288,11 @@ section{
         width: 90%;
         opacity: 1;
         transition: 1.5s !important;
-
-        /* overflow-y: hidden;
-        height: 300px; */
     }
 }
 
-
-
-
 #skills{
     padding-top: 5%;
-    /* color: white;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/skills.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 #skills h1{
     font-weight: 400;
@@ -371,7 +312,6 @@ section{
 .progress{
     height: 30px !important;
     cursor: pointer;
-    /* box-shadow: 2px 4px 5px gray, -2px -2px 5px white; */
 }
 .progress-bar{
     color: black !important;
@@ -380,14 +320,8 @@ section{
     background-color: gold !important;
 }
 
-
-
 #projects{
     padding-top: 5%;
-    /* background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/project1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 #projects h1{
     font-weight: 400;
@@ -404,9 +338,6 @@ section{
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) !important;
     color: white !important ;
 }
-/* .card:hover{
-    box-shadow: 4px 4px 18px rgba(0,0,0,0.4);
-} */
 .card-head{
     width: 100%;
     height: 250px;
@@ -433,7 +364,6 @@ section{
     color: black !important;
 }
 
-
 #contact{
     align-content: center;
 }
@@ -441,7 +371,6 @@ section{
     padding: 15px 30px !important;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
     border-radius: 20px;
-    
 }
 .contact-head{
     width: 100%;
@@ -463,8 +392,6 @@ section{
 .contact-body h3{
     color: gold !important;
 }
-
-
 
 footer{
     background-color: black !important;
@@ -559,4 +486,196 @@ footer{
     font-size: 30px;
     padding-left: 20px !important;
     text-decoration: none !important;
+}
+
+/* =========================================================
+   NEWLY ADDED MEDIA QUERIES FOR RESPONSIVE DESIGN (MOBILE)
+   ========================================================= */
+
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+
+    /* Home Section adjustments */
+    .home-head {
+        top: 20%;
+        left: 5%;
+    }
+    .home-head h2 { font-size: 40px; }
+    .home-head h1 { font-size: 60px; }
+    .home-head .h1 { font-size: 60px; }
+
+    #home p {
+        top: 60%;
+        left: 5%;
+        font-size: 40px;
+    }
+
+    /* Home - extra area */
+    .home-extra {
+        width: 90%;
+        left: 5%;
+        height: auto;
+        min-height: 200px;
+        top: 65%;
+        border-bottom: 2px solid gold;
+    }
+    .back {
+        width: 60px;
+        height: 100%;
+        min-height: 200px;
+    }
+    .home-back h2 {
+        font-size: 50px;
+        left: 20px;
+        top: 10px;
+    }
+    .home-back span {
+        font-size: 30px;
+    }
+    .home-back h5 {
+        left: 20px;
+        top: 80px;
+        font-size: 16px;
+        line-height: normal;
+    }
+    .back1 {
+        width: 100%;
+        right: 0;
+        top: auto;
+        bottom: 10px;
+        position: relative;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+    .div1, .div2, .div3 {
+        height: 30px;
+    }
+    .div1 { width: 90%; }
+    .div2 { width: 70%; }
+    .div3 { width: 50%; }
+
+    /* About Section */
+    #about {
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+    .about-pic {
+        width: 100%;
+        max-width: 320px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    .about-pic img {
+        width: 90%;
+        height: 90%;
+        left: 5%;
+        top: 5%;
+    }
+    .about-pic:hover {
+        width: 100%;
+        max-width: 320px;
+        height: 550px;
+    }
+    .about-pic:hover .about-content {
+        width: 90%;
+        top: 60%;
+        right: 5%;
+        left: 5%;
+        height: auto;
+        overflow-y: visible;
+    }
+    .about-content h1 {
+        font-size: 28px;
+    }
+    .about-content p {
+        font-size: 14px;
+    }
+
+    /* Skills Section */
+    #skills {
+        padding-top: 10%;
+    }
+    #skills h1 {
+        font-size: 2.5rem !important;
+        text-align: center;
+    }
+    #skills .container {
+        padding: 0 15px;
+    }
+    #skills label {
+        font-size: 18px !important;
+    }
+    .progress-bar {
+        font-size: 16px !important;
+    }
+
+    /* Projects Section */
+    #projects {
+        padding-top: 10%;
+    }
+    #projects h1 {
+        font-size: 2.5rem !important;
+        text-align: center;
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 40px 10px;
+    }
+    .contact-us-main {
+        padding: 15px !important;
+        margin: 0 10px;
+    }
+    .contact-head img {
+        margin-bottom: 20px;
+    }
+
+    /* Footer adjustments globally for mobile */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    .footer-header {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .footer-item {
+        justify-content: center;
+    }
+    .footer-body {
+        margin-top: 30px;
+        align-items: center;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Extra tweaks for very small phones */
+    .home-head h2 { font-size: 30px; }
+    .home-head h1, .home-head .h1 { font-size: 40px; }
+    #home p { font-size: 30px; }
+    .home-extra { top: 60%; min-height: 180px; }
+    
+    .about-pic {
+        width: 100%;
+        max-width: 280px;
+        height: 280px;
+    }
+    .about-pic:hover {
+        height: 500px;
+    }
+    .about-pic:hover .about-content {
+        top: 65%;
+    }
 }

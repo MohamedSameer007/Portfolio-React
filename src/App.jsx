@@ -7,6 +7,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import skillsData from './json/skills.json';
 import projectData from './json/projects.json';
+import mainData from './json/main.json';
+
 
 
 function App() {
@@ -405,11 +407,12 @@ function App() {
         </div>
       </section> */}
 
+
       <section id="projects">
       <div className="container pb-lg-5">
         <h1 className="display-4 text-center">Projects</h1>
 
-        {projectData.reduce((rows, project, index) => {
+        {mainData.reduce((rows, project, index) => {
           if (index % 3 === 0) rows.push([]);
           rows[rows.length - 1].push(project);
           return rows;
@@ -442,8 +445,96 @@ function App() {
       </div>
     </section>
 
+    <section id="projects">
+  <div className="container pb-lg-5">
+    <h1 className="display-4 text-center">Mini Projects</h1>
 
-      <section id="contact">
+    {projectData
+      .reduce((rows, project, index) => {
+        if (index % 4 === 0) rows.push([]);
+        rows[rows.length - 1].push(project);
+        return rows;
+      }, [])
+      .map((row, rowIndex) => (
+        <div className="row my-5" key={rowIndex}>
+          {row.map((proj, colIndex) => (
+            <div
+              key={colIndex}
+              className="col-lg-3 col-md-6 col-12 mb-4"
+              data-aos="zoom-in"
+              data-aos-offset={100 * (colIndex + 1)}
+              data-aos-duration="700"
+            >
+              <div className="card h-100">
+                <div className="card-head">
+                  <img
+                    src={proj.image}
+                    className="card-img-top"
+                    alt={proj.title}
+                  />
+                </div>
+
+                <div className="card-body d-flex flex-column">
+                  <h5 className="card-title">{proj.title}</h5>
+                  <p className="card-text">{proj.description}</p>
+
+                  <a
+                    href={proj.link}
+                    className="btn btn-primary mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ))}
+  </div>
+</section>
+
+
+      {/* <section id="projects">
+      <div className="container pb-lg-5">
+        <h1 className="display-4 text-center">Mini Projects</h1>
+
+        {projectData.reduce((rows, project, index) => {
+          if (index % 3 === 0) rows.push([]);
+          rows[rows.length - 1].push(project);
+          return rows;
+        }, []).map((row, rowIndex) => (
+          <div className="row my-5" key={rowIndex}>
+            {row.map((proj, colIndex) => (
+              <div
+                key={colIndex}
+                className="col-lg-4 col-12 my-lg-0 my-4"
+                data-aos="zoom-in"
+                data-aos-offset={100 * (colIndex + 1)}
+                data-aos-duration="700"
+              >
+                <div className="card" style={{ width: '25rem' }}>
+                  <div className="card-head">
+                    <img src={proj.image} className="card-img-top" alt={proj.title} />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">{proj.title}</h5>
+                    <p className="card-text">{proj.description}</p>
+                    <a href={proj.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                      View Project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </section> */}
+
+
+      {/* <section id="contact">
         <div className="container contact-us-main">
           <div className="row contact-us py-2">
             <div className="col-lg-7 contact-head" data-aos="fade-right" data-aos-offset="150" data-aos-duration="700">
@@ -468,7 +559,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       <footer>
