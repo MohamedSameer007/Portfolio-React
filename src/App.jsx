@@ -63,11 +63,11 @@ function App() {
       </nav>
 
       <section id="home">
-        <p className="text-center">Portfolio</p>
+        {/* <p className="text-center">Portfolio</p>
         <p className="text-center">Designer</p>
         <p className="text-center">Artist</p>
         <p className="text-center">Web Developer</p>
-        <p className="text-center">Full Stack Engineer</p>
+        <p className="text-center">Full Stack Engineer</p> */}
 
         <div
           className="home-head"
