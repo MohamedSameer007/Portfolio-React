@@ -16,5 +16,11 @@
     "description": "Search and explore recipes with detailed nutrition information, cooking time, and serving details.",
     "image": "recipe.png",
     "link": "https://github.com/MohamedSameer007/Recipe-Explorer-MERN"
+  },
+  {
+    "title": "Civic Reporter",
+    "description": "This project is an admin dashboard where issues can be managed across different states, districts, and departments.",
+    "image": "civic.png",
+    "link": "https://github.com/MohamedSameer007/civic-reporter"
   }
 ]
