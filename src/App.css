@@ -112,23 +112,6 @@ section{
         left:17%;
         font-size: 50px;
     }
-    .home-head{
-        top: 25%;
-        left: 10%;
-    }
-    .home-head h2{
-        font-size: 30px;
-    }
-    .home-head h1{
-        font-size: 50px;
-    }
-    .home-head .h1{
-        color: gold;
-        font-size: 50px;
-    }
-    .home-head .h2{
-        color: gold;
-    }
 }
 
 .home-extra{
@@ -227,8 +210,6 @@ section{
     font-size: 40px;
     font-weight: 400;
     color: gold !important;
-
-    font-weight: 400;
     font-family: 'Pacifico', cursive !important;
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 1) !important;
 }
@@ -498,64 +479,11 @@ footer{
         font-size: 18px !important;
     }
 
-    /* Home Section adjustments */
-    .home-head {
-        top: 20%;
-        left: 5%;
-    }
-    .home-head h2 { font-size: 40px; }
-    .home-head h1 { font-size: 60px; }
-    .home-head .h1 { font-size: 60px; }
-
     #home p {
         top: 60%;
         left: 5%;
         font-size: 40px;
     }
-
-    /* Home - extra area */
-    .home-extra {
-        width: 90%;
-        left: 5%;
-        height: auto;
-        min-height: 200px;
-        top: 65%;
-        border-bottom: 2px solid gold;
-    }
-    .back {
-        width: 60px;
-        height: 100%;
-        min-height: 200px;
-    }
-    .home-back h2 {
-        font-size: 50px;
-        left: 20px;
-        top: 10px;
-    }
-    .home-back span {
-        font-size: 30px;
-    }
-    .home-back h5 {
-        left: 20px;
-        top: 80px;
-        font-size: 16px;
-        line-height: normal;
-    }
-    .back1 {
-        width: 100%;
-        right: 0;
-        top: auto;
-        bottom: 10px;
-        position: relative;
-        align-items: flex-start;
-        padding-left: 10px;
-    }
-    .div1, .div2, .div3 {
-        height: 30px;
-    }
-    .div1 { width: 90%; }
-    .div2 { width: 70%; }
-    .div3 { width: 50%; }
 
     /* About Section */
     #about {
@@ -577,11 +505,16 @@ footer{
     .about-pic:hover {
         width: 100%;
         max-width: 320px;
-        height: 550px;
+        height: 750px !important;
+    }
+    .about-pic:hover img{
+        left: 5%;
+        top: 3%;
+        height: 45% !important;
     }
     .about-pic:hover .about-content {
         width: 90%;
-        top: 60%;
+        top: 50% !important;
         right: 5%;
         left: 5%;
         height: auto;
@@ -662,10 +595,7 @@ footer{
 
 @media screen and (max-width: 480px) {
     /* Extra tweaks for very small phones */
-    .home-head h2 { font-size: 30px; }
-    .home-head h1, .home-head .h1 { font-size: 40px; }
     #home p { font-size: 30px; }
-    .home-extra { top: 60%; min-height: 180px; }
     
     .about-pic {
         width: 100%;
@@ -678,4 +608,101 @@ footer{
     .about-pic:hover .about-content {
         top: 65%;
     }
+}
+
+
+.icon a{
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.icon a:hover{
+    color: white !important;
+}
+
+
+/* =========================================================
+   RESPONSIVE FIX (Home + Project cards only, About untouched)
+   ========================================================= */
+@media screen and (max-width: 991px) {
+
+    /* HOME: stop absolute positioning and stack in normal flow */
+    #home {
+        justify-content: flex-start;
+        gap: 30px;
+        padding: 40px 0;
+        min-height: auto;
+    }
+
+    .home-head,
+    .home-extra,
+    .back1 {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        width: 90% !important;
+    }
+
+    .home-head {
+        order: 1;
+    }
+    .home-head h2 { font-size: clamp(32px, 9vw, 60px); }
+    .home-head h1,
+    .home-head .h1 { font-size: clamp(40px, 11vw, 80px); }
+
+    .home-extra {
+        order: 2;
+        height: auto !important;
+        min-height: 0 !important;
+        border-bottom: 3px solid gold;
+    }
+    .home-back {
+        position: relative;
+        padding: 20px 15px 25px 50px;
+    }
+    .back {
+        width: 40px;
+        height: 100% !important;
+        min-height: 0 !important;
+    }
+    .home-back h2,
+    .home-back h5 {
+        position: static !important;
+    }
+    .home-back h2 {
+        font-size: clamp(38px, 10vw, 70px);
+        margin-bottom: 10px;
+    }
+    .home-back h5 {
+        font-size: clamp(14px, 3.6vw, 20px);
+        line-height: 1.6;
+    }
+    .home-back span {
+        font-size: clamp(24px, 6vw, 36px);
+    }
+
+    .back1 {
+        order: 3;
+        align-items: flex-end;
+        padding-left: 0 !important;
+    }
+    .div1, .div2, .div3 { height: 40px; }
+    .div1 { width: 100%; }
+    .div2 { width: 75%; }
+    .div3 { width: 50%; }
+
+    /* PROJECT CARDS: remove the fixed 25rem width */
+    .card {
+        width: 100% !important;
+        max-width: 25rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home-back { padding: 15px 10px 20px 40px; }
+    .back { width: 30px; }
+    .div1, .div2, .div3 { height: 28px; }
 }
