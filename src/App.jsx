@@ -53,7 +53,7 @@ function App() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <a className="nav-link" href="#foott">
                   Contact Us
                 </a>
               </li>
@@ -89,12 +89,11 @@ function App() {
             <div className="back"></div>
             <h2>Porfolio</h2>
             <h5>
-              <span>Hey</span> there! I'm Sameer, a passionate web developer who
-              thrives on building clean, fast, and user-friendly websites. I
-              specialize in React.js and modern web technologies, ensuring
-              seamless and responsive designs that enhance user experience.
-              Problem-solving excites me, and I love bringing ideas to life
-              through code.
+              <span>Hey</span> there! I'm Sameer, a passionate Full Stack Developer who
+              thrives on building scalable and user-friendly web
+              applications. I specialize in the MERN stack and modern web
+              technologies, transforming creative ideas into practical solutions.
+              I enjoy exploring new technologies and bringing ideas to life through code.
             </h5>
           </div>
         </div>
@@ -121,19 +120,21 @@ function App() {
           <div className="about-content">
             <h1>ABOUT ME</h1>
             <p>
-              I thrive on solving complex problems and turning ideas into
-              functional, high-performing web applications. Every project I work
-              on is an opportunity to push boundaries, optimize performance, and
-              ensure a flawless digital experience.
+              I'm an Information Technology student and Full Stack Developer
+              passionate about building scalable, user-friendly web
+              applications using the MERN stack. With experience in React.js,
+              Node.js, Express.js, and MongoDB, I enjoy turning ideas into
+              practical solutions.
             </p>
             <p>
-              Beyond coding, I’m always exploring new trends, experimenting with
-              the latest tech, and refining my skills to stay ahead in the
-              ever-evolving web development landscape. I believe that great web
-              experiences come from a mix of creativity, precision, and an eye
-              for detail.
+              Beyond web development, I have a strong interest in problem
+              solving. Having solved 400+ problems on
+              LeetCode and worked on individual and team projects, I strive
+              to improve my skills, write efficient code, and create
+              responsive digital experiences.
             </p>
           </div>
+
         </div>
       </section>
 
@@ -270,8 +271,8 @@ function App() {
             ))}
         </div>
       </section>
-      
-      <footer>
+
+      <footer id='foott'>
         <div className="container py-4">
           <div className="row text-center gy-3">
             <div className="col-12 col-md-4">
